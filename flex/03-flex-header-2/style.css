@@ -17,14 +17,8 @@ body {
   padding: 10px;
 }
 
-.left {
+.left, .right {
   display: flex;
-  justify-content: flex-start;
-}
-
-.right {
-  display: flex;
-  justify-content: flex-end;
   align-items: center;
   gap: 10px;
 }
