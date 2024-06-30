@@ -17,8 +17,6 @@ ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
 }
 
 a {
@@ -28,3 +26,13 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }     
+
+.left-links {
+  display: flex;
+  align-items: center;
+}
+
+.right-links {
+  display: flex;
+  align-items: center;
+}
