@@ -32,6 +32,7 @@ input {
 .header, .footer {
   display: flex;
   justify-content: space-between;
+  padding: 16px;
 }
 
 .footer {
@@ -48,6 +49,7 @@ input {
 
 a {
   text-decoration: none;
+  color: #666;
 }
 
 .content {
