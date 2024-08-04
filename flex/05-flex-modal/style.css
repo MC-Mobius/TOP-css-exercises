@@ -23,13 +23,6 @@ body {
   display: flex;
 }
 
-.segmentR, .segmentC {
-  display: flex;
-}
-
-.segmentC {
-  flex-direction: column;
-}
 
 .icon {
   color: royalblue;
