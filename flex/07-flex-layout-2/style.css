@@ -24,17 +24,22 @@ body {
   background: royalblue;
   box-sizing: border-box;
   flex-shrink: 0;
-  padding: 15px;
+  padding: 15     px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  width: 300px;
+  padding: 15px;
 }
 
 .content  {
   display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+  gap: 35px;
 }
 .middle {
   display: flex;
